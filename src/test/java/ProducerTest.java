@@ -59,8 +59,14 @@ public class ProducerTest {
     }
 
     @Test
-    public void getProducer() {
+    public void getProducerByRealId() {
         Response response = new ApiEndpoints().getProducerById(5);
+        response.then().statusCode(200);
+    }
+
+    @Test
+    public void getProducerByUnrealId() {
+        Response response = new ApiEndpoints().getProducerById(6);
         response.then().statusCode(200);
     }
 }

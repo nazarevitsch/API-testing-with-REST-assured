@@ -11,8 +11,8 @@ public class LoginTest {
         Login login = new Login();
         login.setUsername("test@gmail.com");
         login.setPassword("Test2021");
-        Response r = new ApiEndpoints().loginUser(login);
-        r.then().statusCode(200);
+        Response response = new ApiEndpoints().loginUser(login);
+        response.then().statusCode(200);
     }
 
     @Test
@@ -20,7 +20,7 @@ public class LoginTest {
         Login login = new Login();
         login.setUsername("test@gmail.com");
         login.setPassword("Nazar2021");
-        Response r = new ApiEndpoints().loginUser(login);
-        r.then().statusCode(406);
+        Response response = new ApiEndpoints().loginUser(login);
+        response.then().statusCode(406);
     }
 }
