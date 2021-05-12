@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="526a366c-4a69-4fd3-acdb-8edec1af95da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ConfigPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConfigPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ProducerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProducerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LoginTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ProducerTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/RegistrationTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-LoginTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ProducerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-RegistrationTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ApiEndpoints.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ApiEndpoints.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ConfigPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ConfigPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ProducerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ProducerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RegistrationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/entities/Error.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/entities/Error.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/entities/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/entities/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/entities/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/entities/Producer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/entities/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/entities/Registration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/entities/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/entities/Token.class" afterDir="false" />
-    </list>
+    <list default="true" id="526a366c-4a69-4fd3-acdb-8edec1af95da" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +150,7 @@
       <updated>1618427448966</updated>
       <workItem from="1618427451799" duration="17606000" />
       <workItem from="1619034935350" duration="1967000" />
-      <workItem from="1620837844575" duration="5130000" />
+      <workItem from="1620837844575" duration="5375000" />
     </task>
     <servers />
   </component>
