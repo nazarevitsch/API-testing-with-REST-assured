@@ -55,9 +55,9 @@ public class ProducerTest {
         response.then().statusCode(200);
     }
 
-//    @Test
-//    public void getProducerByUnrealId() {
-//        Response response = new ApiEndpoints().getProducerById(6);
-//        response.then().statusCode(200);
-//    }
+    @Test
+    public void getProducerByUnrealId() {
+        Response response = new ApiEndpoints().getProducerById(6);
+        response.then().statusCode(200);
+    }
 }
