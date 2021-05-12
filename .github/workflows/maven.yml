@@ -22,4 +22,4 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
     - name: Test
-      run: mvn -B verify --file pom.xml
+      run: mvn clean verify

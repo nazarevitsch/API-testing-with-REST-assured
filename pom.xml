@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <encoding>UTF-8</encoding>
         <tags></tags>
-        <parallel.tests>4</parallel.tests>
+        <parallel.tests>9</parallel.tests>
         <webdriver.base.url></webdriver.base.url>
     </properties>
     <dependencies>
