@@ -1,9 +1,12 @@
 import entities.Login;
 import entities.Token;
+import net.serenitybdd.junit.runners.SerenityRunner;
 import org.junit.Test;
 
 import io.restassured.response.Response;
+import org.junit.runner.RunWith;
 
+@RunWith(SerenityRunner.class)
 public class LoginTest {
 
     @Test

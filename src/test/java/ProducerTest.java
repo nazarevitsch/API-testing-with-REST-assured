@@ -2,9 +2,11 @@ import entities.Login;
 import entities.Producer;
 import entities.Token;
 import io.restassured.response.Response;
-import org.junit.Assert;
+import net.serenitybdd.junit.runners.SerenityRunner;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
+@RunWith(SerenityRunner.class)
 public class ProducerTest {
 
     @Test
@@ -37,17 +39,6 @@ public class ProducerTest {
         response.then().statusCode(200);
     }
 
-    @Test
-    public void updateProducerByUnLoginUserMessage() {
-        Login login = new Login();
-        login.setUsername("test@gmail.com");
-        login.setPassword("Test2021");
-        Producer producer = new Producer().setImage("undefined").setNew_image("false").setProducer_name("Test producer")
-                .setTypes("1").setRegion_id("1").setDescription("Test test test test test");
-        Response response = new ApiEndpoints().updateProducer(producer, new ApiEndpoints().loginUser(login).body().as(Token.class).getToken());
-        Error error = response.as(Error.class);
-        Assert.assertEquals("Sent data unacceptable!", error.getMessage());
-    }
 
     @Test
     public void deleteProducerStatusCode() {

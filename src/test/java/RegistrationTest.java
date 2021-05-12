@@ -1,8 +1,11 @@
 import entities.Registration;
 import io.restassured.response.Response;
-import org.junit.Assert;
+import net.serenitybdd.junit.runners.SerenityRunner;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
+
+@RunWith(SerenityRunner.class)
 public class RegistrationTest {
 
     @Test
@@ -15,14 +18,4 @@ public class RegistrationTest {
         response.then().statusCode(406);
     }
 
-    @Test
-    public void registerUserWithAlreadyUserEmailWaitMessageError() {
-        Registration registration = new Registration();
-        registration.setUsername("test@gmail.com");
-        registration.setPassword("Test2021");
-        registration.setName("Test");
-        Response response = new ApiEndpoints().registrationUser(registration);
-        Error error = response.body().as(Error.class);
-        Assert.assertEquals("Email is already used.", error.getMessage());
-    }
 }

@@ -3,8 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="526a366c-4a69-4fd3-acdb-8edec1af95da" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ConfigPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConfigPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ProducerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProducerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LoginTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ProducerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/RegistrationTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-LoginTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ProducerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-RegistrationTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ApiEndpoints.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ApiEndpoints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ConfigPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ConfigPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ProducerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ProducerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RegistrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/entities/Error.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/entities/Error.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/entities/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/entities/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/entities/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/entities/Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/entities/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/entities/Registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/entities/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/entities/Token.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +66,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nazar\Downloads\Lab5Testing" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProducerTest.getProducerByRealId">
+  <component name="RunManager" selected="JUnit.RegistrationTest">
     <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab5Testing" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,21 +96,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerTest.getProducer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProducerTest.updateProducerByUnLoginUserMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab5Testing" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ProducerTest" />
-      <option name="METHOD_NAME" value="getProducer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProducerTest.getProducerByRealId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab5Testing" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProducerTest" />
-      <option name="METHOD_NAME" value="getProducerByRealId" />
+      <option name="METHOD_NAME" value="updateProducerByUnLoginUserMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,13 +115,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegistrationTest.registerUserWithAlreadyUserEmailWaitMessageError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab5Testing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
+      <option name="METHOD_NAME" value="registerUserWithAlreadyUserEmailWaitMessageError" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProducerTest.getProducerByRealId" />
-        <item itemvalue="JUnit.ProducerTest.getProducer" />
-        <item itemvalue="JUnit.ProducerTest" />
         <item itemvalue="JUnit.RegistrationTest" />
+        <item itemvalue="JUnit.ProducerTest" />
         <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="JUnit.RegistrationTest.registerUserWithAlreadyUserEmailWaitMessageError" />
+        <item itemvalue="JUnit.ProducerTest.updateProducerByUnLoginUserMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +172,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618427448966</updated>
-      <workItem from="1618427451799" duration="16214000" />
+      <workItem from="1618427451799" duration="17606000" />
+      <workItem from="1619034935350" duration="1967000" />
+      <workItem from="1620837844575" duration="5130000" />
     </task>
     <servers />
   </component>
@@ -164,22 +190,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="272" width="403" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1618435006352" />
-    <state width="1493" height="278" key="GridCell.Tab.0.bottom" timestamp="1618471627660">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1618476743236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="278" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618471627660" />
-    <state width="1493" height="278" key="GridCell.Tab.0.center" timestamp="1618471627660">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1618476743236" />
+    <state width="1493" height="218" key="GridCell.Tab.0.bottom" timestamp="1620847139624">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="278" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1618471627660" />
-    <state width="1493" height="278" key="GridCell.Tab.0.left" timestamp="1618471627660">
+    <state width="1493" height="218" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620847139624" />
+    <state width="1493" height="218" key="GridCell.Tab.0.center" timestamp="1620847139624">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="278" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1618471627660" />
-    <state width="1493" height="278" key="GridCell.Tab.0.right" timestamp="1618471627660">
+    <state width="1493" height="218" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620847139624" />
+    <state width="1493" height="218" key="GridCell.Tab.0.left" timestamp="1620847139624">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="278" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1618471627660" />
+    <state width="1493" height="218" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620847139624" />
+    <state width="1493" height="218" key="GridCell.Tab.0.right" timestamp="1620847139624">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="218" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620847139624" />
     <state x="42" y="190" key="run.anything.popup" timestamp="1618430080673">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
