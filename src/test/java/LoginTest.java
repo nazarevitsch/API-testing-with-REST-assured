@@ -1,5 +1,4 @@
 import entities.Login;
-import entities.Token;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import org.junit.Test;
 
@@ -17,6 +16,7 @@ public class LoginTest {
         Response response = new ApiEndpoints().loginUser(login);
         response.then().statusCode(200);
     }
+
 
     @Test
     public void loginWithInvalidData() {
