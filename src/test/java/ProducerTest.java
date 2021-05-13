@@ -25,7 +25,7 @@ public class ProducerTest {
         Producer producer = new Producer().setImage("undefined").setNew_image("false").setProducer_name("Test producer")
                 .setTypes("1").setSteps("1").setRegion_id("1").setDescription("Test test test test test");
         Response response = new ApiEndpoints().addProducer(producer, "");
-        response.then().statusCode(401);
+        response.then().statusCode(405);
     }
 
     @Test
